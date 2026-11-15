@@ -1,0 +1,19 @@
+# Python & Virtual Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+dist/
+
+# Local Runtime State, Clean Backups & Build Outputs
+.state/
+.cache/
+build/
+
+# User Local Overrides & Temp Files
+config.json
+config.local.json
+*.bak
+*.tmp

@@ -1,0 +1,368 @@
+{
+  "mod_id": "limbus-rodion-thumb-father-10916-Claude",
+  "name": "Rodion - Thumb Father (10916)",
+  "author": "Claude",
+  "version": "0.1.0",
+  "enabled": true,
+  "priority": 100,
+  "target_personality_id": 10916,
+  "vanilla_appearance_id": "10916_Rodion_Thumb_FatherAppearance",
+  "vanilla_normal_cg_key": "10916_normal",
+  "force_rgba32_atlas": false,
+  "skill_names": {},
+  "illust_params": {},
+  "frame_params": {
+    "dmg": {
+      "scale": 1.375,
+      "offset_x": 4,
+      "offset_y": -3,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "gud": {
+      "scale": 1.328,
+      "offset_x": 1,
+      "offset_y": -3,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "idle": {
+      "scale": 2.631,
+      "offset_x": 2,
+      "offset_y": -6,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "miss": {
+      "scale": 1.354,
+      "offset_x": 1,
+      "offset_y": 0,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "move": {
+      "scale": 1.552,
+      "offset_x": 5,
+      "offset_y": -5,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill1_1": {
+      "scale": 2.784,
+      "offset_x": 2,
+      "offset_y": -6,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill1_2": {
+      "scale": 1.454,
+      "offset_x": 1,
+      "offset_y": -8,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill1_3": {
+      "scale": 1.433,
+      "offset_x": 5,
+      "offset_y": -5,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill1_4": {
+      "scale": 1.228,
+      "offset_x": 3,
+      "offset_y": 0,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill1_5": {
+      "scale": 1.217,
+      "offset_x": 0,
+      "offset_y": -2,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill1_6": {
+      "scale": 1.197,
+      "offset_x": -4,
+      "offset_y": -2,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill1_7": {
+      "scale": 1.907,
+      "offset_x": -15,
+      "offset_y": -20,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill1_8": {
+      "scale": 1.907,
+      "offset_x": -9,
+      "offset_y": -20,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill2_4,6,14": {
+      "scale": 1.56,
+      "offset_x": -6,
+      "offset_y": -18,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill2_5,7": {
+      "scale": 1.39,
+      "offset_x": 6,
+      "offset_y": 16,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill2_8": {
+      "scale": 1.499,
+      "offset_x": 36,
+      "offset_y": -6,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill2_9": {
+      "scale": 1.499,
+      "offset_x": 25,
+      "offset_y": -14,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill2_10~13": {
+      "scale": 1.435,
+      "offset_x": 14,
+      "offset_y": 5,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill2_17": {
+      "scale": 1.283,
+      "offset_x": 19,
+      "offset_y": 6,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill2_18": {
+      "scale": 1.283,
+      "offset_x": 23,
+      "offset_y": 3,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill2_19": {
+      "scale": 1.2,
+      "offset_x": -4,
+      "offset_y": 6,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill2_20": {
+      "scale": 1.64,
+      "offset_x": -54,
+      "offset_y": 16,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill3_0": {
+      "scale": 1.293,
+      "offset_x": -4,
+      "offset_y": -1,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill3_4": {
+      "scale": 1.345,
+      "offset_x": 8,
+      "offset_y": -13,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill3_5": {
+      "scale": 1.296,
+      "offset_x": 3,
+      "offset_y": 0,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill3_6": {
+      "scale": 1.252,
+      "offset_x": -1,
+      "offset_y": 0,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill3_7": {
+      "scale": 1.289,
+      "offset_x": -6,
+      "offset_y": 6,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill3_8": {
+      "scale": 1.289,
+      "offset_x": -13,
+      "offset_y": 7,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill3_9": {
+      "scale": 1.421,
+      "offset_x": 14,
+      "offset_y": 0,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill3_12": {
+      "scale": 1.349,
+      "offset_x": 0,
+      "offset_y": 1,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill3_13~14": {
+      "scale": 1.364,
+      "offset_x": 6,
+      "offset_y": -1,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill3_15": {
+      "scale": 1.351,
+      "offset_x": 44,
+      "offset_y": -40,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill3_16": {
+      "scale": 1.229,
+      "offset_x": -1,
+      "offset_y": 0,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill3_20": {
+      "scale": 1.432,
+      "offset_x": -7,
+      "offset_y": -25,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill3_21": {
+      "scale": 1.211,
+      "offset_x": 1,
+      "offset_y": -1,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill3_22": {
+      "scale": 1.298,
+      "offset_x": 22,
+      "offset_y": -1,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill3_23": {
+      "scale": 1.326,
+      "offset_x": -2,
+      "offset_y": -11,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill3_24": {
+      "scale": 1.304,
+      "offset_x": -4,
+      "offset_y": -5,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    },
+    "skill3_25": {
+      "scale": 1.313,
+      "offset_x": 0,
+      "offset_y": -5,
+      "alpha_choke": 0,
+      "brightness": 1.0,
+      "contrast": 1.0,
+      "saturation": 1.0
+    }
+  },
+  "notes": "10916 Rodion Thumb Father (Claude theme) - SD frames, idle Spine & U1 illustration visual skin mod."
+}
