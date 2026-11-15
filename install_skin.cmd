@@ -50,10 +50,10 @@ if errorlevel 1 (
 if not errorlevel 1 goto :run_apply
 
 echo [2/3] Installing required packages (UnityPy, lz4, Pillow, texture codecs)...
-"%VENV_PY%" -m pip install "UnityPy>=1.25.0" "lz4>=4.4.0" "Pillow>=12.0.0" "etcpak>=0.9.17" "astc-encoder-py>=0.1.12" "texture2ddecoder>=1.0.6"
+"%VENV_PY%" -m pip install "UnityPy>=1.25.0" "lz4>=4.4.0" "Pillow>=12.0.0" "etcpak>=0.9.15" "astc-encoder-py>=0.1.12" "texture2ddecoder>=1.0.6"
 if errorlevel 1 (
     echo [Info] Default PyPI failed or timed out, retrying with Tuna mirror...
-    "%VENV_PY%" -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple "UnityPy>=1.25.0" "lz4>=4.4.0" "Pillow>=12.0.0" "etcpak>=0.9.17" "astc-encoder-py>=0.1.12" "texture2ddecoder>=1.0.6"
+    "%VENV_PY%" -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple "UnityPy>=1.25.0" "lz4>=4.4.0" "Pillow>=12.0.0" "etcpak>=0.9.15" "astc-encoder-py>=0.1.12" "texture2ddecoder>=1.0.6"
 )
 if errorlevel 1 (
     echo [Error] Package installation failed. Check your network and try again.

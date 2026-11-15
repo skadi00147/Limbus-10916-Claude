@@ -21,7 +21,7 @@ Follow the steps below to safely back up the user's original game files and inst
 
 ## Step 1: Verify Python 3.12+ & Create Virtual Environment
 
-Check whether `.venv` already exists in the repo root; if not, locate Python `>=3.12` (`py -3` or `python`), create `.venv`, and install dependencies (`UnityPy>=1.25.0`, `lz4>=4.4.0`, `Pillow>=12.0.0`, `etcpak>=0.9.17`, `astc-encoder-py>=0.1.12`, `texture2ddecoder>=1.0.6`). Note that `etcpak` is required because several vanilla `10916` SD sprites use `DXT5`.
+Check whether `.venv` already exists in the repo root; if not, locate Python `>=3.12` (`py -3` or `python`), create `.venv`, and install dependencies (`UnityPy>=1.25.0`, `lz4>=4.4.0`, `Pillow>=12.0.0`, `etcpak>=0.9.15`, `astc-encoder-py>=0.1.12`, `texture2ddecoder>=1.0.6`). Note that `etcpak` is required because several vanilla `10916` SD sprites use `DXT5`.
 
 In **PowerShell**:
 
@@ -35,7 +35,7 @@ if (!(Test-Path ".venv\Scripts\python.exe")) {
 }
 
 # 3. Install required packages (if default PyPI is slow/blocked in CN, fallback to Tsinghua Tuna mirror)
-.\.venv\Scripts\python.exe -m pip install "UnityPy>=1.25.0" "lz4>=4.4.0" "Pillow>=12.0.0" "etcpak>=0.9.17" "astc-encoder-py>=0.1.12" "texture2ddecoder>=1.0.6"
+.\.venv\Scripts\python.exe -m pip install "UnityPy>=1.25.0" "lz4>=4.4.0" "Pillow>=12.0.0" "etcpak>=0.9.15" "astc-encoder-py>=0.1.12" "texture2ddecoder>=1.0.6"
 ```
 
 *(If PyPI times out in mainland China, retry with `-i https://pypi.tuna.tsinghua.edu.cn/simple`.)*

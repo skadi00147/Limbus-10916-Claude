@@ -67,7 +67,7 @@
 ### 方式二：手动终端命令
 ```powershell
 python -m venv .venv
-.\.venv\Scripts\python.exe -m pip install "UnityPy>=1.25.0" "lz4>=4.4.0" "Pillow>=12.0.0" "etcpak>=0.9.17" "astc-encoder-py>=0.1.12" "texture2ddecoder>=1.0.6"
+.\.venv\Scripts\python.exe -m pip install "UnityPy>=1.25.0" "lz4>=4.4.0" "Pillow>=12.0.0" "etcpak>=0.9.15" "astc-encoder-py>=0.1.12" "texture2ddecoder>=1.0.6"
 
 # 检查本机路径与 10916 缓存就绪状态
 .\.venv\Scripts\python.exe -X utf8 -m installer status
